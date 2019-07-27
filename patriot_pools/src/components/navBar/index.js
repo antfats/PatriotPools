@@ -4,8 +4,8 @@ import React, { Component } from "react";
 class Nav extends Component {
     render() {
         return (
-            <div class="ui inverted segment">
-                <div class="ui inverted secondary menu">
+            <div className="ui inverted segment">
+                <div className="ui inverted secondary menu">
                     <div className="right item">
                         <a className="active item" href="/">
                             Home

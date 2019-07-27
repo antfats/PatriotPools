@@ -1,11 +1,19 @@
-// import React from 'react';
+import React from 'react';
 import './App.css';
-// import meImg from "../src/images/me.jpg"
-import Nav from "./components/navBar/index";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+
 
 function App() {
   return (
-    Nav
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>
+      </div>
+    </Router>
+
 
   );
 }
