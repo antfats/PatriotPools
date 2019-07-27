@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-
+import "./style.css"
 
 class Nav extends Component {
     render() {
         return (
-            <div className="ui inverted segment">
+            <div className="ui inverted segment navBar">
                 <div className="ui inverted secondary menu">
                     <div className="right item">
                         <a className="active item" href="/">
@@ -19,20 +19,7 @@ class Nav extends Component {
                     </div>
                 </div>
             </div>
-            // <div className="ui grid">
-            //   <div className="six column row">
-            //     <div className="left floated column">
-            //       <button class="ui inverted primary button">Patriot Pools</button>
-            //     </div>
-            //     <div className="right floated column">
-            //       <button class="ui inverted blue button">Pricing</button>
-            //       <button class="ui inverted red button">Gallary</button>
-            //       <button class="ui inverted grey button">Grey</button>
-            //     </div>
-            //   </div>
-
-            // </div>
-
+        
         );
     }
 }
