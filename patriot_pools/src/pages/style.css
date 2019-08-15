@@ -1,0 +1,13 @@
+#introPage {
+    height: 1100px;
+    width: 100%;
+    background-image: url("../images/nicePool.jpg");
+    font-family: 'Work Sans', sans-serif;
+    border-bottom: 10px;
+    border-bottom-color: black;
+}
+
+#gallaryID {
+    background-color: whitesmoke;
+    font-family: 'Work Sans', sans-serif;
+}

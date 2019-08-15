@@ -11,10 +11,10 @@ class Nav extends Component {
                             Home
       </a>
                         <a className="item" href="/">
-                            Messages
+                            Gallary
       </a>
                         <a className="item" href="/">
-                            Friends
+                            Our Mission
       </a>
                     </div>
                 </div>
