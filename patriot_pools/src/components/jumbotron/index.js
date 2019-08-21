@@ -6,6 +6,7 @@ class Jumbotron extends Component {
         return (
             <div>
                 <img className="ui fluid image" src="../images/me.jpg" alt=":)" />
+                
             </div>
         )
     }
