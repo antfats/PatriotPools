@@ -4,6 +4,8 @@ import IntroButton from "../components/introButton/index";
 import Gallary from "../components/gallary/index";
 import "./style.css";
 import Header from "../components/h1/index";
+import Testimonials from "../components/testimonials/index";
+import AboutUs from "../components/aboutUs/index";
 // import Jumbotron from "../components/jumbotron/index";
 
 class Home extends Component {
@@ -17,16 +19,20 @@ class Home extends Component {
                         < Nav />
                         <IntroButton />
                     </div>
-                    <div className="sixteen wide centered column" id="gallaryID">
-                        <div className="eight wide centered column">
 
-                            < Header />
-                            < Gallary />
-                        </div>
+                    <div className="sixteen wide column" id="gallaryID">
+                        < Header />
+                        < Gallary />
                     </div>
+                    {/* <div className="sixteen wide column"> */}
+                        <div className="ten wide column">
+                            < Testimonials />
 
+                            < AboutUs />
+                        </div>
+                    {/* </div> */}
                 </div>
-            </div >
+            </div>
         )
     }
 }

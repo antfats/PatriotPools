@@ -2,8 +2,23 @@ img {
     float: top;
 }
 
-;
+#imgFive {
+    margin-left: 30%;
+}
+
+#imgSeven {
+    height: 225px;
+    margin-left: 50px;
+}
+
+#imgThree {
+    height: 225px;
+}
+
 .gallary {
     background-color: #d3d3d3;
-    background-color: #d3d3d3;
+}
+
+#gallary {
+    height: 1000px;
 }
